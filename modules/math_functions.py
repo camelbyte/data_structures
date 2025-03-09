@@ -1,6 +1,9 @@
 import math # Import the math module to use the math functions.
-# I'm only demonstrating the use of a module, hence the import of the math module. 
+# Demonstration of a python module.
+# We will import this module into out main.py with [ import math_functions as mf ]
 
+
+# These are pretty self-explanatory, hence the lack of documentation. 
 
 def squared(base):
     return base * base 
