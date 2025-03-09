@@ -9,40 +9,40 @@ def squared(base):
     return base * base 
 
 
-def subtract(args, kwargs):
-    return args - kwargs
+def subtract(a, b):
+    return a - b
 
 
-def add(args, kwargs):
-    return float(args + kwargs)
+def add(a, b):
+    return float(a + b)
 
 
-def multiply(args, kwargs):
-    return args * kwargs
+def multiply(a, b):
+    return a * b
 
 
-def divide(args, kwargs):
-    return args / kwargs
+def divide(a, b):
+    return a / b
 
 
-def square_root(args):
-    return math.sqrt(args)
+def square_root(a):
+    return math.sqrt(a)
 
 
-def power(args, kwargs):
-    return args ** kwargs
+def power(a, b):
+    return a ** b
 
 
-def factorial(args):
-    return math.factorial(args)
+def factorial(a):
+    return math.factorial(a)
 
 
-def sin(args):
-    return math.sin(args)
+def sin(a):
+    return math.sin(a)
 
 
-def cos(args):
-    return math.cos(args)
+def cos(a):
+    return math.cos(a)
 
 
 """
