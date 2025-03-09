@@ -1,5 +1,9 @@
 import math # Import the math module to use the math functions.
+# I'm only demonstrating the use of a module, hence the import of the math module. 
 
+
+def squared(base):
+    return base * base 
 
 
 def subtract(args, kwargs):
